@@ -4,10 +4,14 @@
     xmlns:context="http://www.springframework.org/schema/context" xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"> <!-- bean definitions here -->
-
+<bean id="a" class="com.cg.di.Student">
+<constructor-arg name="studentName" value="Akshay kalubarme"/>
+<constructor-arg name="rollno" value="110"/>
+</bean>
 <bean id="s" class="com.cg.diadv.StudentNew">
 <property name="math" >
 <bean class="com.cg.diadv.MathCheat"/>
 </property>
+
 </bean>
 </beans>

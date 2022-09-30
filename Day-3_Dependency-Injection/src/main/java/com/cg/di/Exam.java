@@ -11,8 +11,8 @@ public class Exam {
 		s.display();*/
 		
 		ApplicationContext c= new ClassPathXmlApplicationContext("beans.xml");
-		Student s=c.getBean("s",Student.class);
-		s.display();
+		Student a=c.getBean("a",Student.class);
+		a.display();
 	}
 
 }
