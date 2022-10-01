@@ -10,6 +10,7 @@ public class Exam {
 		s.setStudentName("Akshay kalubarme");
 		s.display();*/
 		
+		@SuppressWarnings("resource")
 		ApplicationContext c= new ClassPathXmlApplicationContext("beans.xml");
 		Student a=c.getBean("a",Student.class);
 		a.display();
