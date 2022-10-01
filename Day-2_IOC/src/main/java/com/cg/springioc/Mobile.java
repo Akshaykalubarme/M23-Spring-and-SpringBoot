@@ -15,6 +15,7 @@ public class Mobile {
 		s1.calling();
 		s1.data();*/
 		
+		@SuppressWarnings("resource")
 		ApplicationContext a = new ClassPathXmlApplicationContext("beans.xml");
 		System.out.println("Config... loaded");
 		
