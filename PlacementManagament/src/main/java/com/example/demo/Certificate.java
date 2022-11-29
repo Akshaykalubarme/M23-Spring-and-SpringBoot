@@ -10,7 +10,7 @@ public class Certificate
 	private Integer id;
 	private Integer year;
 	
-	//Defaault constructor
+	//Default constructor
 	public Certificate() {
 		super();
 		// TODO Auto-generated constructor stub

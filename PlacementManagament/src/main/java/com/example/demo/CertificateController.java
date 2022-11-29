@@ -41,7 +41,7 @@ public class CertificateController
 		return service.listAll();
 	}
 	
-	//Retrive with specific id
+	//Retrieve with specific id
 	@GetMapping("/certificate/{id}")
 	public ResponseEntity<Certificate>get(@PathVariable Integer id)
 	{
@@ -56,7 +56,7 @@ public class CertificateController
 			}
 		}
 	
-	//updation
+	//Updation
 	@PutMapping("/certificate/{id}")
 	public ResponseEntity<Certificate> update(@RequestBody Certificate c, @PathVariable Integer id)
 	{
